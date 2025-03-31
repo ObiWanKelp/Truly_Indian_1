@@ -131,3 +131,62 @@ main{
     color: #ffffff;
     
 }
+
+@media (max-width: 768px) {
+    /* Header adjustments */
+    header h1 {
+        font-size: 24px;
+        text-align: left; /* Center-align header for mobile */
+    }
+
+    header h2 {
+        font-size: 18px;
+        text-align: center; /* Center-align subheader */
+        padding-left: 0; /* Remove left padding */
+    }
+
+    header nav {
+        flex-wrap: wrap; /* Wrap navigation links for mobile */
+    }
+
+    header nav a {
+        margin: 5px;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 10px; /* Add padding for spacing */
+    }
+
+    .hero h1 {
+        font-size: 22px; /* Adjust font size for smaller screens */
+    }
+
+    /* Places Section */
+    .places-delhi {
+        flex-direction: column; /* Stack articles vertically */
+        align-items: center; /* Center-align content */
+    }
+
+    .places-delhi article {
+        width: 90%; /* Reduce width to fit mobile screens */
+        margin: 10px auto;
+    }
+
+    .places-delhi article img {
+        width: 100%; /* Scale images to fit container */
+        max-width: 400px; /* Optional: Set a maximum width for images */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Footer */
+    .Rights-delhi {
+        font-size: 14px; /* Adjust font size for mobile screens */
+        text-align: center; /* Center-align footer text */
+        padding: 10px;
+    }
+
+    .Rights-delhi p {
+        font-size: 14px;
+    }
+}

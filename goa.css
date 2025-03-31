@@ -130,3 +130,62 @@ main{
     color: #ffffff;
     
 }
+
+@media (max-width: 768px) {
+    /* Header adjustments */
+    header h1 {
+        font-size: 24px;
+        text-align: left; /* Center-align header */
+    }
+
+    header h2 {
+        font-size: 18px;
+        text-align: center; /* Center-align subheader */
+        padding-left: 0; /* Remove left padding */
+    }
+
+    header nav {
+        flex-wrap: wrap; /* Wrap navigation links for mobile screens */
+    }
+
+    header nav a {
+        margin: 5px; /* Add spacing between links */
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 10px; /* Add padding for better spacing */
+    }
+
+    .hero h1 {
+        font-size: 22px; /* Adjust font size */
+    }
+
+    /* Places Section */
+    .places-goa {
+        flex-direction: column; /* Stack articles vertically */
+        align-items: center; /* Center-align content */
+    }
+
+    .places-goa article {
+        width: 90%; /* Reduce width for better fit */
+        margin: 10px auto;
+    }
+
+    .places-goa article img {
+        width: 100%; /* Scale images to fit container */
+        max-width: 400px; /* Optional: Set a maximum width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Footer */
+    .Rights-goa {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        text-align: center; /* Center-align text */
+        padding: 10px; /* Reduce padding */
+    }
+
+    .Rights-goa p {
+        font-size: 14px; /* Reduce font size for mobile */
+    }
+}

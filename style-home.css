@@ -167,3 +167,61 @@ article a:hover img {
 .Rights a:hover {
     color: #FFFFFF; /* Pure white on hover */
 }
+
+/* Base styles remain unchanged */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Header adjustments */
+    header h1 {
+        font-size: 24px;
+        text-align: left;
+    }
+
+    header nav {
+        flex-wrap: wrap; /* Wrap navigation links */
+    }
+
+    header nav a {
+        margin: 5px;
+    }
+
+    /* Main Content */
+    .hero h1,
+    .hero h2 {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    /* Destinations Section */
+    .destinations {
+        flex-direction: column; /* Stack articles vertically */
+    }
+
+    .destinations article {
+        width: 90%; /* Fit within mobile screens */
+        margin: 10px auto;
+    }
+
+    article a img {
+        width: 100%; /* Scale images to fit container */
+        max-width: 400px; /* Optional: Set a maximum width for images */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Social Section */
+    .social {
+        flex-wrap: wrap; /* Wrap icons */
+        gap: 10px;
+    }
+
+    .social a img {
+        width: 40px; /* Slightly larger for better visibility */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Footer */
+    .Rights {
+        font-size: 14px; /* Adjust font size for mobile */
+    }
+}
