@@ -7,7 +7,8 @@ Author- Aditya Sinsinwar
 - Styled with modern fonts and colors  
 - Navigation bar for easy browsing  
 - Destination images with hover effects  
-- Footer with legal links and branding  
+- Footer with legal links and branding
+- First site ever
 <br>
 # 📂 Project Structure
 Truly-Indian
