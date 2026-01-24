@@ -9,6 +9,7 @@ Author- Aditya Sinsinwar
 - Destination images with hover effects  
 - Footer with legal links and branding
 - First site ever
+- Truly Indian is mid rn next week pakka
 <br>
 # 📂 Project Structure
 Truly-Indian
