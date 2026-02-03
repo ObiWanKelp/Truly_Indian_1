@@ -1,5 +1,5 @@
 # Truly_Indian_1
-Basic project on HTML and CSS only, first project ever.
+Basic projectttt on HTML and CSS only, first project ever.
 <br>
 Author- Aditya Sinsinwar
 # 🌟 Features
